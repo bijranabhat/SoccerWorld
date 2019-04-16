@@ -2,6 +2,9 @@ class MessagesController < ApplicationController
     
     #using find_params for show, edit, update, destroy 
     #applying find_message
+    #authentication needed before accessing files
+    before_action :authenticate_user!, except: [:index, :show]
+    
     before_action :find_message, only: [:show, :edit, :update, :destroy]
     
     def index
