@@ -38,6 +38,12 @@ gem 'jbuilder', '2.7.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'devise'  #for authentication
+
+gem 'bootstrap_form'
+
+gem 'simple_form'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record added later
   gem 'sqlite3', '1.3.13'

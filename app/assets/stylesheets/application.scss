@@ -20,5 +20,45 @@
 // Variables
 @import "base/variables";
 
+//default
+@import "base/default";
+
 // Partials - main css files
 @import "partials/layout/*";
+
+// Partials - main css files
+@import "partials/*";
+@import "partials/layout/*";
+
+// Media queries for a responsive design
+@import "responsive/*";
+
+
+
+//
+
+
+
+
+//
+
+
+
+//
+
+
+//separate css for footer
+.footer{
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:$navbarColor ;
+  color: #fff;
+  text-align: left;
+}
+.p{
+	margin-left: 2em;
+}
+

@@ -1,0 +1,13 @@
+
+
+<% @messages.each do |message| %>
+<div class = "col-md-10 col-md-offset-1">
+    <div class = "message">
+        <h2 class="message-title"><%= message.title %> </h2>
+        <%= link_to "Discuss!", message, class: "btn-cutsom" %>
+        
+    </div>
+</div>
+<% end %>
+
+
